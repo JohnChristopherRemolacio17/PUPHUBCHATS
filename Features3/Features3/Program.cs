@@ -7,7 +7,6 @@ class User
     public int ID { get; set; }
     public string Username { get; set; }
     public List<User> Followers { get; set; }
-
     public User(int id, string username)
     {
         ID = id;
@@ -48,9 +47,9 @@ class Program
     static void Main(string[] args)
     {
         // Create users
-        User user1 = new User(1, "Alice");
-        User user2 = new User(2, "Bob");
-        User user3 = new User(3, "Charlie");
+        User user1 = new User(1, "Jc");
+        User user2 = new User(2, "Jemen");
+        User user3 = new User(3, "Dhuke");
 
         // User1 follows User2
         user1.Follow(user2);
